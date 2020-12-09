@@ -1,8 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 089E3E40
-/// @DnDArgument : "code" "/// @description if hsp > hspl hsp= hspl;$(13_10)if hsp<-hspl hsp=-hspl;$(13_10)if vsp>vspl vsp=vspl;$(13_10)if vsp<-vspl vsp= vspl;"
-/// @description if hsp > hspl hsp= hspl;
+/// @DnDArgument : "code" "//@description limites$(13_10)if hsp > hspl hsp= hspl;$(13_10)if hsp<-hspl hsp=-hspl;$(13_10)if vsp>vspl vsp=vspl;$(13_10)if vsp<-vspl vsp= vspl;"
+//l089E3E40_0 limites
+if hsp > hspl hsp= hspl;
 if hsp<-hspl hsp=-hspl;
 if vsp>vspl vsp=vspl;
 if vsp<-vspl vsp= vspl;
@@ -93,3 +94,95 @@ if !collision_circle(x,y+16,4,o_walls,true,true) && ground
 /// @DnDArgument : "code" "/// @description gravity$(13_10)if !ground vsp+=grv;$(13_10)"
 /// @description gravity
 if !ground vsp+=grv;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 1FFB65CE
+/// @DnDArgument : "code" "/// @description controle$(13_10)if time_mort>0$(13_10){$(13_10)key_r = keyboard_check(vk_right);$(13_10)key_l = keyboard_check(vk_left);$(13_10)key_a = keyboard_check_pressed(vk_space);$(13_10)}"
+/// @description controle
+if time_mort>0
+{
+key_r = keyboard_check(vk_right);
+key_l = keyboard_check(vk_left);
+key_a = keyboard_check_pressed(vk_space);
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 184B470C
+/// @DnDArgument : "code" "/// @description movement$(13_10)if key_r$(13_10){$(13_10)    if hsp >=0 hsp+=acc else  hsp+=dcc;$(13_10)}$(13_10)$(13_10)if key_l$(13_10){$(13_10)   if hsp<=0 hsp-=acc else hsp-=dcc;$(13_10)}$(13_10)$(13_10)if !key_r && !key_l$(13_10){$(13_10)   if hsp > 0 hsp-=frc;$(13_10)   if hsp<0 hsp+=frc;$(13_10)   if hsp <= frc && hsp >= -frc hsp=0;$(13_10)}"
+/// @description movement
+if key_r
+{
+    if hsp >=0 hsp+=acc else  hsp+=dcc;
+}
+
+if key_l
+{
+   if hsp<=0 hsp-=acc else hsp-=dcc;
+}
+
+if !key_r && !key_l
+{
+   if hsp > 0 hsp-=frc;
+   if hsp<0 hsp+=frc;
+   if hsp <= frc && hsp >= -frc hsp=0;
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 7D9DC864
+/// @DnDArgument : "code" "/// @description jump$(13_10)if key_a && ground$(13_10){$(13_10)   ground = false;$(13_10)   vsp=-0.5;$(13_10)}"
+/// @description jump
+if key_a && ground
+{
+   ground = false;
+   vsp=-0.5;
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 45A0F572
+/// @DnDArgument : "code" "/// @description movement infini$(13_10)if time_mort>0$(13_10){$(13_10)	x+= 1.5;$(13_10)}$(13_10)else$(13_10){$(13_10)	key_r =0;$(13_10)	key_l =0;$(13_10)	key_a =0;$(13_10)}"
+/// @description movement infini
+if time_mort>0
+{
+	x+= 1.5;
+}
+else
+{
+	key_r =0;
+	key_l =0;
+	key_a =0;
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 50340D4F
+/// @DnDArgument : "code" "/// @description animation de mort$(13_10)if time_mort<0.00$(13_10){$(13_10)	sprite_index = s_mort;$(13_10)}$(13_10)$(13_10)else$(13_10){$(13_10)	time_mort=time_mort-1/60;$(13_10)}"
+/// @description animation de mort
+if time_mort<0.00
+{
+	sprite_index = s_mort;
+}
+
+else
+{
+	time_mort=time_mort-1/60;
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 149B45BE
+/// @DnDArgument : "code" "/// @description collision bonus$(13_10)if (collision_circle(x,y,10,o_bonus,true,true))$(13_10){$(13_10)	sprite_index = s_mort;$(13_10)	time_mort=time_mort+0.1$(13_10)	sprite_index = s_block;$(13_10)}$(13_10)else$(13_10){$(13_10)	sprite_index = s_mort;$(13_10)}"
+/// @description collision bonus
+if (collision_circle(x,y,10,o_bonus,true,true))
+{
+	sprite_index = s_mort;
+	time_mort=time_mort+0.1
+	sprite_index = s_block;
+}
+else
+{
+	sprite_index = s_mort;
+}

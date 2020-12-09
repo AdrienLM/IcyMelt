@@ -3,7 +3,7 @@
     "name": "s_block",
     "path": "sprites/s_block/s_block.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
