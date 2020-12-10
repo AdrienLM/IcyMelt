@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_skeleton_idle_strip3",
-    "path": "sprites/s_skeleton_idle_strip3/s_skeleton_idle_strip3.yy",
+    "name": "spr_piguin_idle",
+    "path": "sprites/spr_piguin_idle/spr_piguin_idle.yy",
   },
   "solid": false,
   "visible": true,
