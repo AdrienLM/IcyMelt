@@ -1,5 +1,5 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 7E7FCA41
-/// @DnDArgument : "code" "time=3.0;"
-time=3.0;
+/// @DnDHash : 6782BF91
+/// @DnDArgument : "var" "time"
+time = 0;
