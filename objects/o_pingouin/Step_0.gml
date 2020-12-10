@@ -174,8 +174,8 @@ else
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 149B45BE
-/// @DnDArgument : "code" "/// @description Time change$(13_10)if place_meeting(x,y,o_bonus) {$(13_10)	timer = timer+1;$(13_10)}"
+/// @DnDArgument : "code" "/// @description Time change$(13_10)if place_meeting(x,y,o_bonus) {$(13_10)	timer = timer+3;$(13_10)}"
 /// @description Time change
 if place_meeting(x,y,o_bonus) {
-	timer = timer+1;
+	timer = timer+3;
 }
