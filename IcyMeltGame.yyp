@@ -7,6 +7,7 @@
     {"id":{"name":"s_block","path":"sprites/s_block/s_block.yy",},"order":0,},
     {"id":{"name":"font1","path":"fonts/font1/font1.yy",},"order":0,},
     {"id":{"name":"o_walls","path":"objects/o_walls/o_walls.yy",},"order":2,},
+    {"id":{"name":"spr_piguin_idle","path":"sprites/spr_piguin_idle/spr_piguin_idle.yy",},"order":3,},
     {"id":{"name":"o_game_over","path":"objects/o_game_over/o_game_over.yy",},"order":5,},
     {"id":{"name":"o_bonus","path":"objects/o_bonus/o_bonus.yy",},"order":4,},
     {"id":{"name":"o_block","path":"objects/o_block/o_block.yy",},"order":1,},
