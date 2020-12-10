@@ -26,21 +26,13 @@ if vsp<-vspl vsp= vspl;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 24D786B4
-/// @DnDArgument : "code" "/// @description h movment$(13_10)if hsp >0$(13_10){$(13_10)	for(i=0;i<hsp && ! collision_circle(x+16,y,3,o_walls,true,true);i+=1)$(13_10)		{$(13_10)			x+=1;$(13_10)		}$(13_10)}$(13_10)$(13_10)if hsp <0$(13_10){$(13_10)	for(i=0; i>hsp && !collision_circle(x+16,y,3,o_walls,true,true); i-=1)$(13_10)		{$(13_10)			x-=1;$(13_10)		}$(13_10)}"
+/// @DnDArgument : "code" "/// @description h movment$(13_10)if hsp >0$(13_10){$(13_10)	for(i=0;i<hsp && ! collision_circle(x+16,y,3,o_walls,true,true);i+=1)$(13_10)		{$(13_10)			x+=1;$(13_10)		}$(13_10)}"
 /// @description h movment
 if hsp >0
 {
 	for(i=0;i<hsp && ! collision_circle(x+16,y,3,o_walls,true,true);i+=1)
 		{
 			x+=1;
-		}
-}
-
-if hsp <0
-{
-	for(i=0; i>hsp && !collision_circle(x+16,y,3,o_walls,true,true); i-=1)
-		{
-			x-=1;
 		}
 }
 
