@@ -59,7 +59,7 @@
     "spriteId": {"name":"spr_icy_melt_jump","path":"sprites/spr_icy_melt_jump/spr_icy_melt_jump.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 13.0,
+    "playbackSpeed": 11.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
