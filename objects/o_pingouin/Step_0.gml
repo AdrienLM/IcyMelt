@@ -76,13 +76,15 @@ while (collision_circle(x-16,y,3,o_walls,true,true))
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2081663C
-/// @DnDArgument : "code" "/// @description lanind$(13_10)$(13_10)if vsp >=0 && !ground && collision_circle(x,y+16,4,o_walls,true,true)$(13_10){$(13_10)		vsp=0;$(13_10)		ground = true;$(13_10)}"
+/// @DnDArgument : "code" "/// @description lanind$(13_10)$(13_10)if vsp >=0 && !ground && collision_circle(x,y+16,4,o_walls,true,true)$(13_10){$(13_10)		vsp=0;$(13_10)		ground = true;$(13_10)		sprite_index=spr_piguin_idle;$(13_10)		$(13_10)}"
 /// @description lanind
 
 if vsp >=0 && !ground && collision_circle(x,y+16,4,o_walls,true,true)
 {
 		vsp=0;
 		ground = true;
+		sprite_index=spr_piguin_idle;
+		
 }
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
