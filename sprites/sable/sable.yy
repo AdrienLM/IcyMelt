@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 116,
-  "bbox_right": 2900,
+  "bbox_left": 0,
+  "bbox_right": 999,
   "bbox_top": 0,
-  "bbox_bottom": 592,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 2903,
-  "height": 593,
+  "width": 1000,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f8c2041d-2ec2-46f5-ab2a-e6e2339e7ceb","path":"sprites/biome2_background/biome2_background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f8c2041d-2ec2-46f5-ab2a-e6e2339e7ceb","path":"sprites/biome2_background/biome2_background.yy",},"LayerId":{"name":"6382e40e-1132-43c1-be69-3e4518d55be8","path":"sprites/biome2_background/biome2_background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"biome2_background","path":"sprites/biome2_background/biome2_background.yy",},"resourceVersion":"1.0","name":"f8c2041d-2ec2-46f5-ab2a-e6e2339e7ceb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"952bcf87-0131-421e-8fcd-7b3b46ca34c2","path":"sprites/sable/sable.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"952bcf87-0131-421e-8fcd-7b3b46ca34c2","path":"sprites/sable/sable.yy",},"LayerId":{"name":"3bf28dbc-b8af-43f5-9e2b-dbef22f83805","path":"sprites/sable/sable.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sable","path":"sprites/sable/sable.yy",},"resourceVersion":"1.0","name":"952bcf87-0131-421e-8fcd-7b3b46ca34c2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"biome2_background","path":"sprites/biome2_background/biome2_background.yy",},
+    "spriteId": {"name":"sable","path":"sprites/sable/sable.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f7a15c9a-da0d-48e0-9c86-c9108690211c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f8c2041d-2ec2-46f5-ab2a-e6e2339e7ceb","path":"sprites/biome2_background/biome2_background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"df6d669c-e1ec-4ac8-a4d3-95acd2d293ee","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"952bcf87-0131-421e-8fcd-7b3b46ca34c2","path":"sprites/sable/sable.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"biome2_background","path":"sprites/biome2_background/biome2_background.yy",},
+    "parent": {"name":"sable","path":"sprites/sable/sable.yy",},
     "resourceVersion": "1.3",
-    "name": "biome2_background",
+    "name": "sable",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6382e40e-1132-43c1-be69-3e4518d55be8","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3bf28dbc-b8af-43f5-9e2b-dbef22f83805","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "map",
     "path": "folders/Sprites/map.yy",
   },
   "resourceVersion": "1.0",
-  "name": "biome2_background",
+  "name": "sable",
   "tags": [],
   "resourceType": "GMSprite",
 }
