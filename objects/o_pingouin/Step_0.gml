@@ -107,13 +107,13 @@ if !ground vsp+=grv;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1FFB65CE
-/// @DnDArgument : "code" "/// @description controle$(13_10)if timer>0$(13_10){$(13_10)key_r = keyboard_check(vk_right);$(13_10)key_l = keyboard_check(vk_left);$(13_10)key_a = keyboard_check_pressed(vk_space);$(13_10)}"
+/// @DnDArgument : "code" "/// @description controle$(13_10)if timer>0$(13_10){$(13_10)key_r = keyboard_check(vk_right);$(13_10)key_l = keyboard_check(vk_left);$(13_10)key_a = keyboard_check_pressed(vk_up) | keyboard_check_pressed(vk_space);$(13_10)}"
 /// @description controle
 if timer>0
 {
 key_r = keyboard_check(vk_right);
 key_l = keyboard_check(vk_left);
-key_a = keyboard_check_pressed(vk_space);
+key_a = keyboard_check_pressed(vk_up) | keyboard_check_pressed(vk_space);
 }
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
