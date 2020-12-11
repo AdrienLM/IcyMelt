@@ -1,12 +1,13 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 61CD8743
-/// @DnDArgument : "code" "if(timer==0.00)$(13_10){$(13_10)	timer=0.00;$(13_10)	sprite_index = perso_icy_melt_dead;$(13_10)}$(13_10)$(13_10)else$(13_10){$(13_10)	timer=timer-1/60;$(13_10)}"
+/// @DnDArgument : "code" "if(timer==0.00)$(13_10){$(13_10)	timer=0.00;$(13_10)	sprite_index = perso_icy_melt_dead;$(13_10)}$(13_10)$(13_10)$(13_10)else$(13_10){$(13_10)	timer=timer-1/60;$(13_10)}"
 if(timer==0.00)
 {
 	timer=0.00;
 	sprite_index = perso_icy_melt_dead;
 }
+
 
 else
 {

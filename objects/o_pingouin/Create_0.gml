@@ -31,6 +31,6 @@ view_camera[0] = camera_create_view(x, y, 600, 300, -5, o_pingouin, -1, -1, 550,
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 18176C50
-/// @DnDArgument : "code" "///@descr setup timer$(13_10)timer = 500;"
+/// @DnDArgument : "code" "///@descr setup timer$(13_10)timer = 3.00;"
 ///@descr setup timer
-timer = 500;
+timer = 3.00;
