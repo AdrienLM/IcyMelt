@@ -34,3 +34,27 @@ view_camera[0] = camera_create_view(x, y, 600, 300, -5, o_pingouin, -1, -1, 550,
 /// @DnDArgument : "code" "///@descr setup timer$(13_10)timer = 500;"
 ///@descr setup timer
 timer = 500;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 58959F78
+/// @DnDArgument : "code" "///@descr setup score bonus$(13_10)score_bonus = 0;$(13_10)//score=0;"
+///@descr setup score bonus
+score_bonus = 0;
+//score=0;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 632D7912
+/// @DnDArgument : "code" "///@descr setup score time$(13_10)score_time = 0;$(13_10)//score=0;"
+///@descr setup score time
+score_time = 0;
+//score=0;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 1CF6F8C9
+/// @DnDArgument : "code" "///@descr setup score time$(13_10)score_total = 0;$(13_10)//score=0;"
+///@descr setup score time
+score_total = 0;
+//score=0;
