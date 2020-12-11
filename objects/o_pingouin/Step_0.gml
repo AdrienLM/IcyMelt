@@ -170,8 +170,52 @@ else
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 149B45BE
-/// @DnDArgument : "code" "/// @description Time change$(13_10)if place_meeting(x,y,o_bonus) {$(13_10)	timer = timer+3;$(13_10)}"
-/// @description Time change
-if place_meeting(x,y,o_bonus) {
+/// @DnDArgument : "code" "/// @description Time bonus$(13_10)if place_meeting(x,y,o_bonus) $(13_10){$(13_10)	timer = timer+3;$(13_10)}"
+/// @description Time bonus
+if place_meeting(x,y,o_bonus) 
+{
 	timer = timer+3;
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 3D7E94C9
+/// @DnDArgument : "code" "/// @description score bonus$(13_10)if place_meeting(x,y,o_bonus) $(13_10)	{$(13_10)		score_bonus = score_bonus+10;$(13_10)	}"
+/// @description score bonus
+if place_meeting(x,y,o_bonus) 
+	{
+		score_bonus = score_bonus+10;
+	}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 586D2812
+/// @DnDArgument : "code" "/// @description high score$(13_10)score_total = score_bonus+score_time;$(13_10)score = score_total;$(13_10)//highscore_clear()$(13_10)if(timer<=0)$(13_10){$(13_10)	highscore_add ("Records : ",score);$(13_10)}"
+/// @description high score
+score_total = score_bonus+score_time;
+score = score_total;
+//highscore_clear()
+if(timer<=0)
+{
+	highscore_add ("Records : ",score);
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 28CF1681
+/// @DnDArgument : "code" "/// @description score time$(13_10)if(timer>0)$(13_10){$(13_10)	score_time = score_time+0.1;$(13_10)}"
+/// @description score time
+if(timer>0)
+{
+	score_time = score_time+0.1;
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 44EEA355
+/// @DnDArgument : "code" "/// @description dead$(13_10)if place_meeting(x,y,o_line_limit)$(13_10){$(13_10)	timer=0;$(13_10)}"
+/// @description dead
+if place_meeting(x,y,o_line_limit)
+{
+	timer=0;
 }

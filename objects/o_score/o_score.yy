@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "s_block",
-    "path": "sprites/s_block/s_block.yy",
+    "name": "s_bloc_lava",
+    "path": "sprites/s_bloc_lava/s_bloc_lava.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_bonus","path":"objects/o_bonus/o_bonus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_score","path":"objects/o_score/o_score.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_bonus",
+  "name": "o_score",
   "tags": [],
   "resourceType": "GMObject",
 }
