@@ -116,17 +116,6 @@ key_l = keyboard_check(vk_left) | keyboard_check(ord("Q"));
 key_a = keyboard_check_pressed(vk_up) | keyboard_check_pressed(vk_space)|keyboard_check_pressed(ord("Z"));
 }
 
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
-/// @DnDVersion : 1
-/// @DnDHash : 5F72946F
-/// @DnDArgument : "key" "ord("A")"
-var l5F72946F_0;
-l5F72946F_0 = keyboard_check(ord("A"));
-if (l5F72946F_0)
-{
-
-}
-
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 184B470C
