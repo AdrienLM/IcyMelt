@@ -1,10 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 61CD8743
-/// @DnDArgument : "code" "if(timer==0.00)$(13_10){$(13_10)	timer=0.00;$(13_10)	if(i<4)$(13_10)	{$(13_10)		sprite_index = perso_icy_melt_dead;$(13_10)		i=i+1;$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)	sprite_index = s_mort;$(13_10)	}$(13_10)}$(13_10)$(13_10)$(13_10)else$(13_10){$(13_10)	timer=timer-1/60;$(13_10)}"
-if(timer==0.00)
+/// @DnDArgument : "code" "///@description animation mort$(13_10)$(13_10)if(timer=0)$(13_10){$(13_10)	timer=0;$(13_10)	if(i<4)$(13_10)	{$(13_10)		sprite_index = perso_icy_melt_dead;$(13_10)		i=i+1;$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)	sprite_index = s_mort;$(13_10)	}$(13_10)}$(13_10)$(13_10)$(13_10)else$(13_10){$(13_10)	timer=timer-1/60;$(13_10)}"
+///@description animation mort
+
+if(timer=0)
 {
-	timer=0.00;
+	timer=0;
 	if(i<4)
 	{
 		sprite_index = perso_icy_melt_dead;
@@ -178,21 +180,27 @@ else
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 149B45BE
-/// @DnDArgument : "code" "/// @description Time bonus$(13_10)if place_meeting(x,y,o_bonus) $(13_10){$(13_10)	timer = timer+valeur_bonus_time;$(13_10)}"
+/// @DnDArgument : "code" "/// @description Time bonus$(13_10)if place_meeting(x,y,o_bonus)$(13_10){$(13_10)	if (timer>0)$(13_10)		{$(13_10)			timer = timer+valeur_bonus_time;$(13_10)		}$(13_10)}"
 /// @description Time bonus
-if place_meeting(x,y,o_bonus) 
+if place_meeting(x,y,o_bonus)
 {
-	timer = timer+valeur_bonus_time;
+	if (timer>0)
+		{
+			timer = timer+valeur_bonus_time;
+		}
 }
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 3D7E94C9
-/// @DnDArgument : "code" "/// @description score bonus$(13_10)if place_meeting(x,y,o_bonus) $(13_10)	{$(13_10)		score_bonus = score_bonus+valeur_bonus;$(13_10)	}"
+/// @DnDArgument : "code" "/// @description score bonus$(13_10)if place_meeting(x,y,o_bonus) $(13_10)	{$(13_10)		if (timer>0)$(13_10)		{$(13_10)		score_bonus = score_bonus+valeur_bonus;$(13_10)		}$(13_10)	}"
 /// @description score bonus
 if place_meeting(x,y,o_bonus) 
 	{
+		if (timer>0)
+		{
 		score_bonus = score_bonus+valeur_bonus;
+		}
 	}
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
@@ -208,8 +216,8 @@ if(timer>0)
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 44EEA355
-/// @DnDArgument : "code" "/// @description dead$(13_10)if place_meeting(x,y,o_line_limit)$(13_10){$(13_10)	timer=0;$(13_10)}"
-/// @description dead
+/// @DnDArgument : "code" "/// @description piege mortel$(13_10)if place_meeting(x,y,o_line_limit)$(13_10){$(13_10)	timer=0;$(13_10)}"
+/// @description piege mortel
 if place_meeting(x,y,o_line_limit)
 {
 	timer=0;
@@ -218,12 +226,15 @@ if place_meeting(x,y,o_line_limit)
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1E7F9E2C
-/// @DnDArgument : "code" "/// @description obstacle$(13_10)if place_meeting(x,y,o_obstacle)$(13_10){$(13_10)	timer=timer-valeur_malus_time;$(13_10)	score_malus=score_malus+valeur_malus;$(13_10)}"
+/// @DnDArgument : "code" "/// @description obstacle$(13_10)if place_meeting(x,y,o_obstacle)$(13_10){$(13_10)	if (timer>0)$(13_10)		{$(13_10)			timer=timer-valeur_malus_time;$(13_10)			score_malus=score_malus+valeur_malus;$(13_10)		}$(13_10)}"
 /// @description obstacle
 if place_meeting(x,y,o_obstacle)
 {
-	timer=timer-valeur_malus_time;
-	score_malus=score_malus+valeur_malus;
+	if (timer>0)
+		{
+			timer=timer-valeur_malus_time;
+			score_malus=score_malus+valeur_malus;
+		}
 }
 
 /// @DnDAction : YoYo Games.Common.Execute_Code

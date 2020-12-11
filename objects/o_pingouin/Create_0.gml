@@ -77,6 +77,14 @@ valeur_malus_time = 0.5;//malus temps 0.2 sur la durée de itbox de l'obstacle
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
+/// @DnDHash : 2D497FAE
+/// @DnDArgument : "code" "///@descr setup $(13_10)$(13_10)i=0;"
+///@descr setup 
+
+i=0;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
 /// @DnDHash : 0BF35368
 /// @DnDArgument : "code" "///@descr setup $(13_10)$(13_10)i=0;"
 ///@descr setup 
