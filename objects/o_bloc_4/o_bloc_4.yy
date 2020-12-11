@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "btnplay",
-    "path": "sprites/btnplay/btnplay.yy",
+    "name": "s_bloc_4",
+    "path": "sprites/s_bloc_4/s_bloc_4.yy",
   },
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_obstacle",
+    "path": "objects/o_obstacle/o_obstacle.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_bonus","path":"objects/o_bonus/o_bonus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Obstacles",
+    "path": "folders/Objects/Obstacles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_bonus",
+  "name": "o_bloc_4",
   "tags": [],
   "resourceType": "GMObject",
 }

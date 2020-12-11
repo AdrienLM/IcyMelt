@@ -152,13 +152,13 @@ if !key_r && !key_l
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7D9DC864
-/// @DnDArgument : "code" "/// @description jump$(13_10)if key_a && ground$(13_10){$(13_10)   sprite_index = spr_icy_melt_jump$(13_10)   ground = false;$(13_10)   vsp=-0.5;$(13_10)}"
+/// @DnDArgument : "code" "/// @description jump$(13_10)if key_a && ground$(13_10){$(13_10)   sprite_index = spr_icy_melt_jump$(13_10)   ground = false;$(13_10)   vsp=-0.36;$(13_10)}"
 /// @description jump
 if key_a && ground
 {
    sprite_index = spr_icy_melt_jump
    ground = false;
-   vsp=-0.5;
+   vsp=-0.36;
 }
 
 /// @DnDAction : YoYo Games.Common.Execute_Code

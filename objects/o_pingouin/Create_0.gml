@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1B58DB07
-/// @DnDArgument : "code" "///@descr setup variable déplacement$(13_10)hsp=0;$(13_10)vsp=0;$(13_10)$(13_10)hspl=10;$(13_10)vspl=10;$(13_10)$(13_10)acc=0.03;$(13_10)dcc=0.3;$(13_10)$(13_10)frc=0.046875;$(13_10)$(13_10)grv=0.02;$(13_10)$(13_10)ground = false;                            "
+/// @DnDArgument : "code" "///@descr setup variable déplacement$(13_10)hsp=0;$(13_10)vsp=0;$(13_10)$(13_10)hspl=10;$(13_10)vspl=10;$(13_10)$(13_10)acc=0.03;$(13_10)dcc=0.3;$(13_10)$(13_10)frc=0.046875;$(13_10)$(13_10)grv=0.007;$(13_10)$(13_10)ground = false;                            "
 ///@descr setup variable déplacement
 hsp=0;
 vsp=0;
@@ -14,7 +14,7 @@ dcc=0.3;
 
 frc=0.046875;
 
-grv=0.02;
+grv=0.007;
 
 ground = false;
 
