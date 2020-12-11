@@ -7,7 +7,6 @@
     {"id":{"name":"biome2_floor","path":"sprites/biome2_floor/biome2_floor.yy",},"order":9,},
     {"id":{"name":"s_mort","path":"sprites/s_mort/s_mort.yy",},"order":1,},
     {"id":{"name":"biome2_background","path":"sprites/biome2_background/biome2_background.yy",},"order":13,},
-    {"id":{"name":"biome1_5_floor","path":"sprites/biome1_5_floor/biome1_5_floor.yy",},"order":15,},
     {"id":{"name":"font2","path":"fonts/font2/font2.yy",},"order":1,},
     {"id":{"name":"s_block","path":"sprites/s_block/s_block.yy",},"order":0,},
     {"id":{"name":"biome1_5_sky","path":"sprites/biome1_5_sky/biome1_5_sky.yy",},"order":6,},
