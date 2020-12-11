@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"84953aa5-b35d-4d14-aa75-d9c4d68a9442","path":"sprites/biome2_5_floor/biome2_5_floor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"84953aa5-b35d-4d14-aa75-d9c4d68a9442","path":"sprites/biome2_5_floor/biome2_5_floor.yy",},"LayerId":{"name":"f31c4d8f-53ca-435c-b7fa-c743df3c9f57","path":"sprites/biome2_5_floor/biome2_5_floor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"biome2_5_floor","path":"sprites/biome2_5_floor/biome2_5_floor.yy",},"resourceVersion":"1.0","name":"84953aa5-b35d-4d14-aa75-d9c4d68a9442","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1fd51433-2c8d-4aa1-980f-d4a9eadac58e","path":"sprites/biome2_5_floor/biome2_5_floor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1fd51433-2c8d-4aa1-980f-d4a9eadac58e","path":"sprites/biome2_5_floor/biome2_5_floor.yy",},"LayerId":{"name":"ecb1e69c-4bdc-4cf0-a378-473639971a1f","path":"sprites/biome2_5_floor/biome2_5_floor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"biome2_5_floor","path":"sprites/biome2_5_floor/biome2_5_floor.yy",},"resourceVersion":"1.0","name":"1fd51433-2c8d-4aa1-980f-d4a9eadac58e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"biome2_5_floor","path":"sprites/biome2_5_floor/biome2_5_floor.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f90a07d9-ee7c-463f-bd6f-572c5ec6f5c6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"84953aa5-b35d-4d14-aa75-d9c4d68a9442","path":"sprites/biome2_5_floor/biome2_5_floor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bd06c762-65ae-409a-b2e4-37185b4acf2d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1fd51433-2c8d-4aa1-980f-d4a9eadac58e","path":"sprites/biome2_5_floor/biome2_5_floor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f31c4d8f-53ca-435c-b7fa-c743df3c9f57","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ecb1e69c-4bdc-4cf0-a378-473639971a1f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "map",

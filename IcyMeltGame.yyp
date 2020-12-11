@@ -38,6 +38,7 @@
     {"id":{"name":"biome1_5_floor11","path":"sprites/biome1_5_floor11/biome1_5_floor11.yy",},"order":5,},
     {"id":{"name":"biome1_5_background","path":"sprites/biome1_5_background/biome1_5_background.yy",},"order":7,},
     {"id":{"name":"pink","path":"sprites/pink/pink.yy",},"order":21,},
+    {"id":{"name":"biome2_5_floor","path":"sprites/biome2_5_floor/biome2_5_floor.yy",},"order":23,},
     {"id":{"name":"biome2_sky","path":"sprites/biome2_sky/biome2_sky.yy",},"order":12,},
     {"id":{"name":"s_cactus_1","path":"sprites/s_cactus_1/s_cactus_1.yy",},"order":15,},
     {"id":{"name":"biome1_background","path":"sprites/biome1_background/biome1_background.yy",},"order":3,},
