@@ -142,11 +142,11 @@ if !key_r && !key_l
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7D9DC864
-/// @DnDArgument : "code" "/// @description jump$(13_10)if key_a && ground$(13_10){$(13_10)	sprite_index = spr_icy_melt_jump$(13_10)   ground = false;$(13_10)   vsp=-0.5;$(13_10)}"
+/// @DnDArgument : "code" "/// @description jump$(13_10)if key_a && ground$(13_10){$(13_10)   sprite_index = spr_icy_melt_jump$(13_10)   ground = false;$(13_10)   vsp=-0.5;$(13_10)}"
 /// @description jump
 if key_a && ground
 {
-	sprite_index = spr_icy_melt_jump
+   sprite_index = spr_icy_melt_jump
    ground = false;
    vsp=-0.5;
 }
@@ -210,8 +210,8 @@ if place_meeting(x,y,o_line_limit)
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1E7F9E2C
-/// @DnDArgument : "code" "/// @description dead$(13_10)if place_meeting(x,y,o_obstacle)$(13_10){$(13_10)	timer=timer-valeur_malus_time;$(13_10)	score_malus=score_malus+valeur_malus;$(13_10)}"
-/// @description dead
+/// @DnDArgument : "code" "/// @description obstacle$(13_10)if place_meeting(x,y,o_obstacle)$(13_10){$(13_10)	timer=timer-valeur_malus_time;$(13_10)	score_malus=score_malus+valeur_malus;$(13_10)}"
+/// @description obstacle
 if place_meeting(x,y,o_obstacle)
 {
 	timer=timer-valeur_malus_time;
