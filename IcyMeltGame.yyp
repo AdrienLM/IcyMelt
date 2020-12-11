@@ -42,6 +42,7 @@
     {"id":{"name":"o_buche_1","path":"objects/o_buche_1/o_buche_1.yy",},"order":13,},
     {"id":{"name":"monument7","path":"sprites/monument7/monument7.yy",},"order":29,},
     {"id":{"name":"s_cactus_3","path":"sprites/s_cactus_3/s_cactus_3.yy",},"order":17,},
+    {"id":{"name":"spr_flake_bonus","path":"sprites/spr_flake_bonus/spr_flake_bonus.yy",},"order":37,},
     {"id":{"name":"o_score","path":"objects/o_score/o_score.yy",},"order":7,},
     {"id":{"name":"o_bloc_3","path":"objects/o_bloc_3/o_bloc_3.yy",},"order":5,},
     {"id":{"name":"spr_icy_melt_jump","path":"sprites/spr_icy_melt_jump/spr_icy_melt_jump.yy",},"order":3,},
