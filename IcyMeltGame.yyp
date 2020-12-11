@@ -52,6 +52,7 @@
     {"id":{"name":"monument2","path":"sprites/monument2/monument2.yy",},"order":34,},
     {"id":{"name":"biome4_background","path":"sprites/biome4_background/biome4_background.yy",},"order":27,},
     {"id":{"name":"biome2_sky","path":"sprites/biome2_sky/biome2_sky.yy",},"order":12,},
+    {"id":{"name":"launch_cover_game","path":"sprites/launch_cover_game/launch_cover_game.yy",},"order":37,},
     {"id":{"name":"s_cactus_1","path":"sprites/s_cactus_1/s_cactus_1.yy",},"order":15,},
     {"id":{"name":"biome1_background","path":"sprites/biome1_background/biome1_background.yy",},"order":3,},
     {"id":{"name":"biome3_sky","path":"sprites/biome3_sky/biome3_sky.yy",},"order":22,},

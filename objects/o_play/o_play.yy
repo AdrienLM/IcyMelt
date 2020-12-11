@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_buche_2",
-    "path": "sprites/s_buche_2/s_buche_2.yy",
+    "name": "launch_cover_game",
+    "path": "sprites/launch_cover_game/launch_cover_game.yy",
   },
   "solid": false,
   "visible": true,
