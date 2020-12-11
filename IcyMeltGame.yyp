@@ -7,6 +7,7 @@
     {"id":{"name":"s_skeleton_idle_strip3","path":"sprites/s_skeleton_idle_strip3/s_skeleton_idle_strip3.yy",},"order":0,},
     {"id":{"name":"s_bloc_8","path":"sprites/s_bloc_8/s_bloc_8.yy",},"order":10,},
     {"id":{"name":"o_timer","path":"objects/o_timer/o_timer.yy",},"order":3,},
+    {"id":{"name":"o_obstacle","path":"objects/o_obstacle/o_obstacle.yy",},"order":10,},
     {"id":{"name":"o_line_limit","path":"objects/o_line_limit/o_line_limit.yy",},"order":9,},
     {"id":{"name":"s_bloc_7","path":"sprites/s_bloc_7/s_bloc_7.yy",},"order":9,},
     {"id":{"name":"s_cactus_4","path":"sprites/s_cactus_4/s_cactus_4.yy",},"order":18,},
