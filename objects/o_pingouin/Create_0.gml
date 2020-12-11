@@ -74,3 +74,11 @@ valeur_bonus = 10; //+10 point pour les flocons
 valeur_malus = 0.5;//malus score 0.5 sur la durée de itbox de l'obstacle
 valeur_bonus_time = 0.1; //0.1 --> 1s = 1p
 valeur_malus_time = 0.5;//malus temps 0.2 sur la durée de itbox de l'obstacle
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 0BF35368
+/// @DnDArgument : "code" "///@descr setup $(13_10)$(13_10)i=0;"
+///@descr setup 
+
+i=0;
