@@ -46,15 +46,31 @@ score_bonus = 0;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 632D7912
-/// @DnDArgument : "code" "///@descr setup score time$(13_10)score_time = 0;$(13_10)//score=0;"
+/// @DnDArgument : "code" "///@descr setup score time$(13_10)score_time = 0;"
 ///@descr setup score time
 score_time = 0;
-//score=0;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1CF6F8C9
-/// @DnDArgument : "code" "///@descr setup score time$(13_10)score_total = 0;$(13_10)//score=0;"
-///@descr setup score time
+/// @DnDArgument : "code" "///@descr setup score total$(13_10)score_total = 0;"
+///@descr setup score total
 score_total = 0;
-//score=0;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 376412A4
+/// @DnDArgument : "code" "///@descr setup score malus$(13_10)score_malus = 0;"
+///@descr setup score malus
+score_malus = 0;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 0119BB3D
+/// @DnDArgument : "code" "///@descr setup valeurs scores$(13_10)$(13_10)valeur_bonus = 10; //+10 point pour les flocons$(13_10)valeur_malus = 0.5;//malus score 0.5 sur la durée de itbox de l'obstacle$(13_10)valeur_bonus_time = 0.1; //0.1 --> 1s = 1p$(13_10)valeur_malus_time = 0.5;//malus temps 0.2 sur la durée de itbox de l'obstacle"
+///@descr setup valeurs scores
+
+valeur_bonus = 10; //+10 point pour les flocons
+valeur_malus = 0.5;//malus score 0.5 sur la durée de itbox de l'obstacle
+valeur_bonus_time = 0.1; //0.1 --> 1s = 1p
+valeur_malus_time = 0.5;//malus temps 0.2 sur la durée de itbox de l'obstacle

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_bloc_lava",
-    "path": "sprites/s_bloc_lava/s_bloc_lava.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
