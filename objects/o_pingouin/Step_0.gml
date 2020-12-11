@@ -107,13 +107,24 @@ if !ground vsp+=grv;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1FFB65CE
-/// @DnDArgument : "code" "/// @description controle$(13_10)if timer>0$(13_10){$(13_10)key_r = keyboard_check(vk_right);$(13_10)key_l = keyboard_check(vk_left);$(13_10)key_a = keyboard_check_pressed(vk_up) | keyboard_check_pressed(vk_space);$(13_10)}"
+/// @DnDArgument : "code" "/// @description controle$(13_10)if timer>0$(13_10){$(13_10)key_r = keyboard_check(vk_right) | keyboard_check(ord("D"));$(13_10)key_l = keyboard_check(vk_left) | keyboard_check(ord("Q"));$(13_10)key_a = keyboard_check_pressed(vk_up) | keyboard_check_pressed(vk_space)|keyboard_check_pressed(ord("Z"));$(13_10)}"
 /// @description controle
 if timer>0
 {
-key_r = keyboard_check(vk_right);
-key_l = keyboard_check(vk_left);
-key_a = keyboard_check_pressed(vk_up) | keyboard_check_pressed(vk_space);
+key_r = keyboard_check(vk_right) | keyboard_check(ord("D"));
+key_l = keyboard_check(vk_left) | keyboard_check(ord("Q"));
+key_a = keyboard_check_pressed(vk_up) | keyboard_check_pressed(vk_space)|keyboard_check_pressed(ord("Z"));
+}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+/// @DnDVersion : 1
+/// @DnDHash : 5F72946F
+/// @DnDArgument : "key" "ord("A")"
+var l5F72946F_0;
+l5F72946F_0 = keyboard_check(ord("A"));
+if (l5F72946F_0)
+{
+
 }
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
