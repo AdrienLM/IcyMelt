@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "btnplay",
-    "path": "sprites/btnplay/btnplay.yy",
+    "name": "s_buche_2",
+    "path": "sprites/s_buche_2/s_buche_2.yy",
   },
   "solid": false,
   "visible": true,
