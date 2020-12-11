@@ -1,10 +1,10 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 61CD8743
-/// @DnDArgument : "code" "///@description animation mort$(13_10)$(13_10)if(timer>0)$(13_10){$(13_10)	timer=0;$(13_10)	if(i<4)$(13_10)	{$(13_10)		sprite_index = perso_icy_melt_dead;$(13_10)		i=i+1;$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)	sprite_index = s_mort;$(13_10)	}$(13_10)}$(13_10)$(13_10)$(13_10)else$(13_10){$(13_10)	timer=timer-1/60;$(13_10)}"
+/// @DnDArgument : "code" "///@description animation mort$(13_10)$(13_10)if(timer=0)$(13_10){$(13_10)	timer=0;$(13_10)	if(i<4)$(13_10)	{$(13_10)		sprite_index = perso_icy_melt_dead;$(13_10)		i=i+1;$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)	sprite_index = s_mort;$(13_10)	}$(13_10)}$(13_10)$(13_10)$(13_10)else$(13_10){$(13_10)	timer=timer-1/60;$(13_10)}"
 ///@description animation mort
 
-if(timer>0)
+if(timer=0)
 {
 	timer=0;
 	if(i<4)
