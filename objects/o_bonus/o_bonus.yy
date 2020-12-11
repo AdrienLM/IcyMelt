@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_flake_bonus",
-    "path": "sprites/spr_flake_bonus/spr_flake_bonus.yy",
+    "name": "s_block",
+    "path": "sprites/s_block/s_block.yy",
   },
   "solid": true,
   "visible": true,

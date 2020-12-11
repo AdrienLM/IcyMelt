@@ -37,7 +37,6 @@
     {"id":{"name":"monument7","path":"sprites/monument7/monument7.yy",},"order":29,},
     {"id":{"name":"btnplay","path":"sprites/btnplay/btnplay.yy",},"order":4,},
     {"id":{"name":"s_cactus_3","path":"sprites/s_cactus_3/s_cactus_3.yy",},"order":17,},
-    {"id":{"name":"spr_flake_bonus","path":"sprites/spr_flake_bonus/spr_flake_bonus.yy",},"order":37,},
     {"id":{"name":"o_score","path":"objects/o_score/o_score.yy",},"order":7,},
     {"id":{"name":"spr_icy_melt_jump","path":"sprites/spr_icy_melt_jump/spr_icy_melt_jump.yy",},"order":3,},
     {"id":{"name":"biome3_5_background","path":"sprites/biome3_5_background/biome3_5_background.yy",},"order":26,},
