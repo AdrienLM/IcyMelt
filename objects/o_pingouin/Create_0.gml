@@ -21,11 +21,11 @@ ground = false;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0AD736AA
-/// @DnDArgument : "code" "///@descr setup angle camera$(13_10)$(13_10)camera_destroy(view_camera[0]);$(13_10)view_camera[0] = camera_create_view(x, y, 600, 300, -5, o_pingouin, -1, -1, 550, 300/4.5);$(13_10)//camera_create_view(room_x, room_y, width, height, [ang le, object, x_speed, y_speed, x_border, y_border])                   "
+/// @DnDArgument : "code" "///@descr setup angle camera$(13_10)$(13_10)camera_destroy(view_camera[0]);$(13_10)view_camera[0] = camera_create_view(0, 0, 600, 300, -5, o_pingouin, -1, -1, 550, 300/4.5);$(13_10)//camera_create_view(room_x, room_y, width, height, [ang le, object, x_speed, y_speed, x_border, y_border])                   "
 ///@descr setup angle camera
 
 camera_destroy(view_camera[0]);
-view_camera[0] = camera_create_view(x, y, 600, 300, -5, o_pingouin, -1, -1, 550, 300/4.5);
+view_camera[0] = camera_create_view(0, 0, 600, 300, -5, o_pingouin, -1, -1, 550, 300/4.5);
 //camera_create_view(room_x, room_y, width, height, [ang le, object, x_speed, y_speed, x_border, y_border])
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
