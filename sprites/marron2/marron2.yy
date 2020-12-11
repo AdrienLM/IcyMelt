@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 2418,
-  "bbox_top": 5,
-  "bbox_bottom": 282,
+  "bbox_right": 1603,
+  "bbox_top": 0,
+  "bbox_bottom": 68,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 3000,
-  "height": 812,
+  "width": 1604,
+  "height": 69,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c3ea269c-7155-4640-afbd-6fadb786cc85","path":"sprites/biome3_5_floor/biome3_5_floor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c3ea269c-7155-4640-afbd-6fadb786cc85","path":"sprites/biome3_5_floor/biome3_5_floor.yy",},"LayerId":{"name":"3549a5ef-88e1-4b3e-aad3-7d61c7b1d972","path":"sprites/biome3_5_floor/biome3_5_floor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"biome3_5_floor","path":"sprites/biome3_5_floor/biome3_5_floor.yy",},"resourceVersion":"1.0","name":"c3ea269c-7155-4640-afbd-6fadb786cc85","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f58546c9-b0a5-4022-93e8-4b95b044920e","path":"sprites/marron2/marron2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f58546c9-b0a5-4022-93e8-4b95b044920e","path":"sprites/marron2/marron2.yy",},"LayerId":{"name":"a8c16718-84ad-4719-acae-ace4edad04ae","path":"sprites/marron2/marron2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"marron2","path":"sprites/marron2/marron2.yy",},"resourceVersion":"1.0","name":"f58546c9-b0a5-4022-93e8-4b95b044920e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"biome3_5_floor","path":"sprites/biome3_5_floor/biome3_5_floor.yy",},
+    "spriteId": {"name":"marron2","path":"sprites/marron2/marron2.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f6d207cc-56b5-457e-82aa-c5585788d602","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c3ea269c-7155-4640-afbd-6fadb786cc85","path":"sprites/biome3_5_floor/biome3_5_floor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"aecf8e42-5903-40cb-9f4e-b45cc6c0b06a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f58546c9-b0a5-4022-93e8-4b95b044920e","path":"sprites/marron2/marron2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"biome3_5_floor","path":"sprites/biome3_5_floor/biome3_5_floor.yy",},
+    "parent": {"name":"marron2","path":"sprites/marron2/marron2.yy",},
     "resourceVersion": "1.3",
-    "name": "biome3_5_floor",
+    "name": "marron2",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3549a5ef-88e1-4b3e-aad3-7d61c7b1d972","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a8c16718-84ad-4719-acae-ace4edad04ae","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "map",
     "path": "folders/Sprites/map.yy",
   },
   "resourceVersion": "1.0",
-  "name": "biome3_5_floor",
+  "name": "marron2",
   "tags": [],
   "resourceType": "GMSprite",
 }
